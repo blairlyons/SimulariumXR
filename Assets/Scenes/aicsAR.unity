@@ -1118,7 +1118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   organelle: 1
-  currentScale: 1
+  currentScale: 0
   play: 0
 --- !u!1 &476493625
 GameObject:
