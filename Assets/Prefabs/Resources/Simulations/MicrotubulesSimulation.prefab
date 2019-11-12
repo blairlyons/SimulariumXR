@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7504222269992697845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7504222269992697851}
+  - component: {fileID: 7504222269992697850}
+  m_Layer: 0
+  m_Name: MicrotubulesSimulation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7504222269992697851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504222269992697845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7504222269992697850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7504222269992697845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41ff3beaca644333b28e0989ae5f212, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentFrame: 0
+  frameRate: 5
+  trajectoryName: microtubules30_1
+  boxSize: 300
+  geometryPrefabs:
+  - {fileID: 1629092952251651692, guid: 1bdf5c9edd0274851823b1f48e1a3404, type: 3}
+  - {fileID: 1629092952251651692, guid: 1bdf5c9edd0274851823b1f48e1a3404, type: 3}
+  - {fileID: 1629092952251651692, guid: 1bdf5c9edd0274851823b1f48e1a3404, type: 3}
+  - {fileID: 2840914108369623792, guid: d0861b91093f144fa9f1bf3802164aff, type: 3}
+  - {fileID: 2840914108369623792, guid: d0861b91093f144fa9f1bf3802164aff, type: 3}
+  - {fileID: 1629092952251651692, guid: 1bdf5c9edd0274851823b1f48e1a3404, type: 3}
+  - {fileID: 2840914108369623792, guid: d0861b91093f144fa9f1bf3802164aff, type: 3}
+  - {fileID: 2840914108369623792, guid: d0861b91093f144fa9f1bf3802164aff, type: 3}
+  playing: 0

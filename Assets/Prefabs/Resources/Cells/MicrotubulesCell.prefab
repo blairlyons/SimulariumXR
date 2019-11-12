@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5236494233182014095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6896409830072964085}
+  - component: {fileID: 3828518748295967709}
+  m_Layer: 0
+  m_Name: MicrotubulesCell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6896409830072964085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236494233182014095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3828518748295967709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236494233182014095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e329f5e16b331403bba655663cc0309f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentFrame: 0
+  frameRate: 5
+  playing: 0
+  cellPrefabs:
+  - {fileID: 1719746095338930, guid: f5e9123e8cad24831bd757e727478895, type: 3}
+  - {fileID: 1313441013258318, guid: f30872d1566ec405cb8e5b59d87641e8, type: 3}
+  - {fileID: 1564549659720698, guid: 50a8d7bf03eb24461b91e69c5a3d7a43, type: 3}
+  - {fileID: 1392914716758910, guid: 84c11012ef9c044bb99628d9902fbf28, type: 3}
+  - {fileID: 1184838652205362, guid: 8b8f988b76874417a9d7aff673db77f1, type: 3}
+  - {fileID: 1873818452288946, guid: f99e3d7d72a014c58976c1fbc21d538e, type: 3}
